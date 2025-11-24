@@ -79,9 +79,25 @@ Perfect for:
 
 ## 📸 App Screenshots
 
-<p align="center">
-  ![Screenshot_2025-11-24-17-34-06-40_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/bd44a4ec-c9b6-48cd-a210-76cbfba1c212)
-</p>
+![Screenshot_2025-11-24-17-34-06-40_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/8c5bc732-129b-4d3f-bd56-d62f90f53d44)
+
+![Screenshot_2025-11-24-17-35-00-45_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/683f9235-6ce8-4e59-b81f-a2a2c31f8647)
+
+![Screenshot_2025-11-24-17-35-29-94_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/54cb127d-af9d-4090-8ebc-8bb97f4aba60)
+
+![Screenshot_2025-11-24-17-35-38-40_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/952ec8bc-bd2d-4383-828f-8d77ea17f264)
+
+![Screenshot_2025-11-24-17-35-54-52_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/9dfa3dcc-eed6-44ea-9940-e435c3e567ac)
+
+![Screenshot_2025-11-24-17-37-17-80_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/71023d2b-e806-4479-895a-0e092cb5d19a)
+
+![Screenshot_2025-11-24-17-37-26-39_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/33c657f0-4bb5-4a45-9904-c525f53d6799)
+
+![Screenshot_2025-11-24-17-37-44-86_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/26565a89-cad3-4a85-8152-ccd427edef1b)
+
+![Screenshot_2025-11-24-17-38-20-03_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/65e9a836-71e0-45d7-b55b-4cbd4e2e433c)
+
+![Screenshot_2025-11-24-17-38-43-75_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/192a4264-b862-4225-bf0c-b16ee74779c7)
 
 ---
 
