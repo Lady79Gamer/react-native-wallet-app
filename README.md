@@ -1,8 +1,7 @@
 # 💰 React Native Wallet App
 
-<p align="center">
-  <img src= <img width="960" height="640" alt="Cover Image" src="https://github.com/user-attachments/assets/8b85790d-68aa-4414-b753-02260c42a3d9 />
-</p>
+
+<img width="960" height="640" alt="Cover Image" src="https://github.com/user-attachments/assets/3424d0e1-5b3e-4ea3-b45c-f5f485973d8c" />
 
 
 A full-stack personal finance wallet application built using **React Native, Expo, Express, Clerk, Neon PostgreSQL, and Redis**.
