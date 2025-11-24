@@ -1,71 +1,131 @@
 # 💰 React Native Wallet App
 
-A full-stack personal finance wallet mobile application built with **React Native (Expo), Express.js, PostgreSQL (Neon), Redis, and Clerk authentication**. This app lets users safely manage personal transactions with real backend storage, live syncing, and secure login.
+A full-stack personal finance wallet application built using **React Native, Expo, Express, Clerk, Neon PostgreSQL, and Redis**.
+This project demonstrates how to build a complete production-ready mobile application with **authentication, database integration, cloud deployment, and real-time updates** — all without needing Swift, Kotlin, or native modules.
+
+This project demonstrates how to build a fully functional, production-ready mobile finance tracker using React Native + Expo alongside a Node.js/Express backend with:
+
+⦁	Clerk authentication (with email code verification)
+
+⦁	Neon PostgreSQL for database storage
+
+⦁	Redis rate limiting
+
+⦁	Deployed backend and real device mobile support
+
+Users can:
+
+⦁	Sign up & log in using a 6-digit email code
+
+⦁	View their current wallet balance
+
+⦁	Create income or expense transactions
+
+⦁	Delete transactions, with recalculations
+
+⦁	Pull-to-refresh to sync with backend
+
+⦁	Log out securely
+
+Perfect for developers looking to learn how to connect a mobile frontend to a real backend with secure user accounts and persistent cloud data storage.
 
 ---
 
 ## 🚀 Features
 
-### 🔐 Authentication
+### ✨ Mobile App (Expo & React Native)
 
-* Email sign-in using Clerk
-* 6-digit verification code flow
-* Secure token-based authentication
-
-### 📱 Mobile App
-
-* Works on **iOS & Android**
-* Beautiful home screen displaying:
+* 📱 Runs on **iOS & Android**
+* 🔐 Email-based login & signup (6-digit verification code) using Clerk
+* 💼 Home screen showing:
 
   * Current balance
-  * Past transactions
-* Create a screen for adding:
+  * List of transactions
+* ➕ Add income and expense transactions
+* 🔄 Pull-to-refresh functionality
+* ❌ Delete transactions to update balance instantly
+* 🚪 Logout routing that safely returns users to auth pages
 
-  * Income transactions
-  * Expense transactions
-* Swipe down to pull-to-refresh
-* Delete transactions and dynamically update the balance
-* Logout returns the user to the login screen
+### 🖥 Backend (Express API)
 
-### 🧠 Backend
-
-* Express REST API
-* PostgreSQL database hosted on Neon
-* Clerk middleware for validating user tokens
-* Redis for API rate limiting
+* 🌐 Fully REST-based Node.js server
+* 🗄 PostgreSQL database hosted on Neon
+* ⚙ Auth middleware using Clerk
+* 📦 Redis-based rate limiting for protection
+* ☁ Easily deployable on cloud services
 
 ---
 
-## 🧰 Tech Stack
+## 🧠 What You'll Learn
 
-| Category             | Technology                           |
-| -------------------- | ------------------------------------ |
-| Mobile               | React Native, Expo, React Navigation |
-| Backend              | Node.js, Express                     |
-| Authentication       | Clerk                                |
-| Database             | PostgreSQL (Neon)                    |
-| Caching / Rate Limit | Redis                                |
-| Deployment           | Cloud-based hosting                  |
+By building this project, you’ll master:
+
+* Building a **mobile app with React Native & Expo**
+* Creating a **backend with Express & PostgreSQL**
+* Real-world user authentication with **Clerk**
+* Structured full-stack communication between mobile → backend → database
+* Implementing rate limiting using **Redis**
+* Deployment of both backend & mobile applications
+* Managing navigation & global app state cleanly
+
+Perfect for:
+
+* Beginners building their *first full-stack mobile app*
+* React developers expanding into React Native
+* Anyone needing a realistic production-ready example
 
 ---
 
-## 📸 Screenshots
+## 📸 App Screenshots
 
-> *(Add images here when uploading to repo)*
+<p align="center">
+  <img src="screenshots/home.jpg" width="220" />
+  <img src="screenshots/login.jpg" width="220" />
+  <img src="screenshots/create.jpg" width="220" />
+</p>
 
-Example (image):
+*(You can replace these paths with the included image files.)*
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* React Native (Expo)
+* React Navigation
+* Async Storage
+* Clerk Auth SDK
+
+### Backend
+
+* Node.js + Express
+* PostgreSQL (Neon)
+* Redis (Rate Limiting)
+* Clerk Server SDK
+
+---
+
+## 📁 Project Structure
 
 ```
-/assets/screens/home.png
-/assets/screens/login.png
-/assets/screens/create.png
+.
+├── backend
+│   ├── src
+│   ├── package.json
+│   └── .env
+└── mobile
+    ├── screens
+    ├── components
+    ├── package.json
+    └── app.config.js
 ```
 
 ---
 
-## ⚙️ Environment Setup
+## ⚙ Environment Variables
 
-### Backend `.env`
+### Backend (`/backend/.env`)
 
 ```
 PORT=5001
@@ -78,7 +138,7 @@ DATABASE_URL=<your_neon_postgres_connection_url>
 REDIS_URL=<your_redis_connection_url>
 ```
 
-### Mobile `.env`
+### Mobile (`/mobile/.env`)
 
 ```
 EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_key>
@@ -86,7 +146,7 @@ EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_key>
 
 ---
 
-## 🛠 Running the Project
+## ▶ Running The Project
 
 ### 1️⃣ Start Backend
 
@@ -104,55 +164,55 @@ npm install
 npx expo start
 ```
 
-Use a real device or simulator to test the app.
+Scan the QR code or run the Android/iOS simulator.
 
 ---
 
-## 📚 What You'll Learn
+## 📡 Deployment
 
-* Build and deploy a full Express API
-* Integrate Clerk authentication with email verification
-* Store data in a real PostgreSQL cloud database
-* Connect mobile UI to backend services
-* Implement rate limiting with Redis
-* Deploy mobile and server applications
-* Understand React Native navigation and state management
+You can deploy using:
+
+### Backend:
+
+* Vercel
+* Render
+* Fly.io
+* Railway
+
+### Database:
+
+* Neon PostgreSQL (recommended)
+
+### Redis:
+
+* Upstash (free tiers available)
+
+### Mobile:
+
+* Expo EAS (supports OTA & store publishing)
 
 ---
 
-## 📝 Folder Structure
+## 📌 Roadmap
 
-```
-root
-│
-├── backend
-│   ├── src
-│   ├── package.json
-│   ├── .env
-│
-└── mobile
-    ├── App.js
-    ├── screens/
-    ├── components/
-    ├── .env
-```
+* [ ] Dark mode UI
+* [ ] Filtering & sorting transactions
+* [ ] Budget goals overview
+* [ ] Push notifications for expenses
 
 ---
 
 ## 🧾 License
 
-This project is licensed under the MIT License — see `LICENSE` for details.
+This project is open-source — see `LICENSE` for details.
 
 ---
 
-## ⭐ Contribute
+## ⭐ Support
 
-Pull requests and feature contributions are welcome! Feel free to open an issue for suggestions or bugs.
+If this project helps you:
 
----
+* Star ⭐ the repository
+* Share with developers getting into React Native
 
-## 📩 Contact
-
-If you have questions or want help extending the app, feel free to ask!
-
-Happy coding 🎉
+Happy coding!
