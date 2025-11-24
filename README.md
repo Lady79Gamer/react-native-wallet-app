@@ -232,5 +232,7 @@ If this project helps you:
 This backend is an API server. Opening the Render URL in a browser will not show a webpage — it is meant to serve the mobile app. If you open it directly, you may see “Cannot GET /”.
 
 Thanks,
+
 Happy coding!
+
 aar0gya
